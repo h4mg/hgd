@@ -33,7 +33,7 @@
 					<!-- div year -->
 					<h5 class="projYear"><?php the_field('project_year'); ?></h5>
 					<!-- div featured image -->
-					<div class="featImg"><?php the_post_thumbnail(); ?></div>
+					<div class="featImg"><?php the_post_thumbnail(500, 400, true); ?></div>
 					<!-- div short description -->
 					<p><?php the_field('short_desc'); ?></p>
 					<!-- div listing terms -->
