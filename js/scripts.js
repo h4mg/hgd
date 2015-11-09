@@ -1,5 +1,13 @@
+// On document ready:
+
 $(function(){
 
-	console.log("It's working");
-
+	// Instantiate MixItUp:
+	console.log('works');
+	$('#Container').mixItUp();
+	$('.main-gallery').flickity({
+	  // options
+	  cellAlign: 'left',
+	  contain: true
+	});
 });

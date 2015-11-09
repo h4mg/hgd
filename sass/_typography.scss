@@ -1,4 +1,45 @@
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: $sans;
+	font-family: $serif;
+}
+
+p{
+	font-family: $serif;
+	font-size: 1.5rem;
+	line-height: 1.46;
+	color: $bodyText;
+	
+}
+
+h4, h5.projYear{
+	font-family: $sans;
+	font-size: 1.4rem;
+	font-size: 700;
+	margin: 1rem 0 1.5rem;
+	text-transform: uppercase;
+}
+
+h3{
+	font-family: $serif;
+	font-size: 2.4rem;
+	
+}
+
+h5.projYear{
+	font-family: $sans;
+	color: grey;
+	font-weight: 400;
+	position: absolute;
+	bottom: -1rem;
+	right: 1rem;
+}
+
 a {
+	font-size: 1.2rem;
 	color: #BA209B;
 	text-decoration: none;
 	&:hover {
@@ -8,9 +49,7 @@ a {
 
 /* paragraphs */
 
-p {
-	line-height: 1.5;
-}
+
 
 /*blockquotes*/
 

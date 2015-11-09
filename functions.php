@@ -70,6 +70,14 @@ function hackeryou_scripts() {
     null, // version number
     true //load in footer
   );
+
+  wp_enqueue_script(
+    'scripts', //handle
+    get_template_directory_uri() . '/js/jquery.mixitup.js', //source
+    array( 'jquery', 'plugins' ), //dependencies
+    null, // version number
+    true //load in footer
+  );
 }
 
 add_action( 'wp_enqueue_scripts', 'hackeryou_scripts' );
@@ -266,3 +274,5 @@ function get_post_parent($post) {
 		return $post->ID;
 	}
 }
+
+show_admin_bar( false );
