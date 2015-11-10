@@ -37,7 +37,7 @@
 					<!-- div short description -->
 					<p><?php the_field('short_desc'); ?></p>
 					<!-- div listing terms -->
-					<?php the_terms( $post -> ID, 'services', '',', '); ?>
+					<p><?php the_terms( $post -> ID, 'services'); ?></p>
 					<!-- div checking featured project -->
 					<?php
 					if( get_field('featured_project')==true )

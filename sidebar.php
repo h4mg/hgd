@@ -37,11 +37,11 @@
 
 		$terms = get_terms( 'thatinwhich', $args );
 		if ( ! empty( $terms ) && ! is_wp_error( $terms ) ){
-		    echo '<h3>That in Which...</h3><ul>';
+		    echo '<h3>That in Which...</h3><div>';
 		    foreach ( $terms as $term ) {
 		      echo '<button class="filter" data-filter=".' . $term->slug . '">' . $term->name . '</button>';
 		    }
-		    echo '</ul>';
+		    echo '</div>';
 		}
 	 ?>
 </div>
